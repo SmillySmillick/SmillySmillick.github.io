@@ -1,0 +1,39 @@
+/* 基本样式重置 (可选，但推荐) */
+body {
+    margin: 0; /* 移除 body 默认的外边距 */
+    padding: 0; /* 移除 body 默认的内边距 */
+    font-family: sans-serif; /* 设置一个默认字体 */
+}
+
+/* 设置整个页面的背景图片 */
+body {
+    background-image: url('background.jpg'); /* 替换为你的图片路径 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-size: cover; /* 背景图片覆盖整个元素，可能会裁剪 */
+    background-position: center center; /* 背景图片居中显示 */
+    background-attachment: fixed; /* 背景图片固定，不随内容滚动 */
+    min-height: 100vh; /* 确保 body 至少和视口一样高，这样背景图片才能覆盖整个视口 */
+}
+
+/* 居中标题 */
+h1 {
+    text-align: center; /* 将 h1 元素内的文本居中 */
+    color: #333; /* 设置标题颜色，确保在背景图上可见 */
+    /* 可以根据需要添加一些内边距或外边距 */
+    padding-top: 50px; /* 例如：在标题上方添加一些空间 */
+}
+
+/* 可选：为标题容器添加半透明背景，提高可读性 */
+header {
+    background-color: rgba(255, 255, 255, 0.7); /* 白色，70% 透明度 */
+    padding: 20px; /* 添加一些内边距 */
+    margin-bottom: 20px; /* 在 header 下方添加一些外边距 */
+}
+
+/* 其他内容的样式 (可选) */
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* 为主要内容区域添加半透明背景 */
+    margin: 20px;
+    border-radius: 8px;
+}
